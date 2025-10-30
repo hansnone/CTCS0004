@@ -2,7 +2,7 @@
 {
     Console.WriteLine("Dame un numero.");
     Console.Write(">> ");
-    string numero = Console.ReadLine();
+    string numero = Console.ReadLine()!;
     if (double.TryParse(numero, out double numero2))
     {
         return numero2;
@@ -16,29 +16,29 @@
 static string SolicitarOperacion()
 {
     Console.WriteLine("Operaciones validas: +, -, * y //.");
-    string entrada = Console.ReadLine();
+    string entrada = Console.ReadLine()!;
     switch (entrada)
     {
         case "+":
             Console.WriteLine("Suma.");
             return entrada;
-            break;
+            
         case "-":
             Console.WriteLine("Resta.");
             return entrada;
-            break;
+            
         case "*":
             Console.WriteLine("Multiplicacion.");
             return entrada;
-            break;
+            
         case "/":
             Console.WriteLine("Division.");
             return entrada;
-            break;
+            
         default:
             Console.WriteLine("Operacion no permitida.");
             return SolicitarOperacion(); 
-            break;
+            
     }
 }
 

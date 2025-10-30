@@ -26,3 +26,4 @@ C:\Users\thebe\Desktop\Proyectos\CTCS0004\bin\Debug\net8.0\CTCS0004.dll
 C:\Users\thebe\Desktop\Proyectos\CTCS0004\bin\Debug\net8.0\CTCS0004.pdb
 C:\Users\thebe\Desktop\Proyectos\CTCS0004\obj\Debug\net8.0\CTCS0004.genruntimeconfig.cache
 C:\Users\thebe\Desktop\Proyectos\CTCS0004\obj\Debug\net8.0\ref\CTCS0004.dll
+C:\Users\thebe\Desktop\Proyectos\CTCS0004\obj\Debug\net8.0\CTCS0004.sourcelink.json
