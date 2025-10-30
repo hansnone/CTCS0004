@@ -17,7 +17,6 @@ static string SolicitarOperacion()
 {
     Console.WriteLine("Operaciones validas: +, -, * y //.");
     string entrada = Console.ReadLine();
-    inicio:
     switch (entrada)
     {
         case "+":
@@ -53,8 +52,24 @@ Console.WriteLine(op);
 
 static string Calcular(double a, double b, string op)
 {
-    if (op == "*")
+    double resultado = 0;
+    switch (op)
     {
-        Console.WriteLine(a * b);
+        case "+":
+        resultado = a + b;
+        break;
+        case "-":
+        resultado = a - b;
+        break;
+        case "*":
+        resultado = a * b;
+        break;
+        case "/":
+        if (b==0) return "Error: Division por cero.";
+        resultado = a / b;
+        break;
+        default:
+        return "Operacion invalida.";
     }
+    return $"Resultado: {resultado}";
 }
