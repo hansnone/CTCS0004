@@ -73,3 +73,5 @@ static string Calcular(double a, double b, string op)
     }
     return $"Resultado: {resultado}";
 }
+
+Console.WriteLine(Calcular(a,b,op));
